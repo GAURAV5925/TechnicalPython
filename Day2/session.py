@@ -82,17 +82,6 @@ print("difference",myset.difference(yourset))
 
 ## frozen set is also like the set btu here we cannot manipulate the data bcos it is immutable
 
-## if elif else statement implimentation
-
-a=10
-b=20
-c=30
-
-if a>b & b>c:
-    print("a is largest")
-elif b>a:
-    print("a is largest")
-
 
 
 
