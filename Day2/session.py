@@ -89,8 +89,9 @@ b=20
 c=30
 
 if a>b & b>c:
-    print(a>b>c)
-elif a<b & b<c:
+    print("a is largest")
+elif b>a:
+    print("a is largest")
 
 
 
