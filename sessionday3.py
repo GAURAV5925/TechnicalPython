@@ -7,64 +7,65 @@
 
 ##check if passed in all the paper
 
-# a= int(input("Enter the a value"))
-# b = int(input("ENter the b value"))
-# c= int(input("ENter the c value"))
-# d= int(input('Enter the d value'))
+'''
+a= int(input("Enter the a value"))
+b = int(input("ENter the b value"))
+c= int(input("ENter the c value"))
+d= int(input('Enter the d value'))
 
 
 ## To Check if the person passed all the paper
 
 
-# if (a>=40) and (b>=40) and (c>=40) and (d>=40):
-#     print("Passed")
-# else:
-#     print("Failed")
+if (a>=40) and (b>=40) and (c>=40) and (d>=40):
+    print("Passed")
+else:
+    print("Failed")'''
 
 
 ## WAP to check entered no's is positive or not
 
 
-# a = int(input("Enter the 1st number : "))
-# b = int(input("Enter the 2nd number "))
+'''a = int(input("Enter the 1st number : "))
+b = int(input("Enter the 2nd number "))
 
-# if a>=0:
-#     print("Given Number is positive")
-# elif a==0:
-#     print("Given number is Negative")
-# else:
-#     print("Given number is Negative")
+if a>=0:
+    print("Given Number is positive")
+elif a==0:
+    print("Given number is Negative")
+else:
+    print("Given number is Negative")
 
-
+'''
 
 
 ##Check if letter is Vowel or Consonent
 
+'''
 
+letter=input("Please enter the letter")
 
-# letter=input("Please enter the letter")
+letter.lower()
 
-# letter.lower()
+if (letter=="a" or letter=="A") or (letter=="e" or letter=="E") or (letter=="i" or letter=="I") or (letter=="o" or letter=="O") or (letter=="u" or letter=="U"):
+    print("Vowel")
+else:
+    print("Consonent")
 
-# if (letter=="a" or letter=="A") or (letter=="e" or letter=="E") or (letter=="i" or letter=="I") or (letter=="o" or letter=="O") or (letter=="u" or letter=="U"):
-#     print("Vowel")
-# else:
-#     print("Consonent")
+vowel_list = ('a','e','i','o','u','A','E','I','O','U')
 
-# vowel_list = ('a','e','i','o','u','A','E','I','O','U')
+vowel_set = ['a','e','i','o','u','A','E','I','O','U']
 
-# vowel_set = ['a','e','i','o','u','A','E','I','O','U']
+if letter in vowel_list:
+    print("It's vowel")
+else:
+    print("It's consonent")
 
-# if letter in vowel_list:
-#     print("It's vowel")
-# else:
-#     print("It's consonent")
-
-# if letter in vowel_set:
-#     print("It's vowel")
-# else:
-#     print("It's consonent")
-
+if letter in vowel_set:
+    print("It's vowel")
+else:
+    print("It's consonent")
+'''
 
 
 ## TO CHECK WEATHER THE ENTERED VALUE IS CHAR IN UPPERCASE OR LOWERCASE AND  NUMBER 
@@ -72,29 +73,29 @@
 
 
 
-# if ch>=65 and ch<=91:
-#     print("Your entered character is in uppercase")
-# elif ch>=97 and ch <= 122:
-#     print("Your entered character is in lower case")
-# elif ch>=48 and ch<=57:
-#     print("Your entered character is digit")
-# else:
-#     print("your entered char is in special symbols")
+'''if ch>=65 and ch<=91:
+    print("Your entered character is in uppercase")
+elif ch>=97 and ch <= 122:
+    print("Your entered character is in lower case")
+elif ch>=48 and ch<=57:
+    print("Your entered character is digit")
+else:
+    print("your entered char is in special symbols")'''
 
 
 ## To calculate the sum of first 10 Natural No's
 
-# no = 10
-# sum=0
+'''no = 10
+sum=0
 
-# while no >0:
-#     sum=sum+no
-#     no=no-1
+while no >0:
+    sum=sum+no
+    no=no-1
 
-# print("The sum is", sum)
+print("The sum is", sum)'''
 
 
-##FIBONACCI SERIES
+##FIBONACCI SERIES(My Code)
 
 Number = 8
 
