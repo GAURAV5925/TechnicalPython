@@ -39,5 +39,27 @@ sim_int(p,r,t)'''
 
 ## Q4. Program for Compound Interest
 
+'''def ci(p,r,t):
+    ci = p*(1+(r/100))**t - p
+    print("Your Compund Interest is ", ci)
 
+p=float(input("Enter your principal amount: "))
+r=float(input("Enter your rate: "))
+t=float(input("Enter your Time: "))
+ci(p,r,t)
+'''
+
+## Q5. Area of circle
+
+
+import math
+
+def area_circle(radius):
+    area = math.pi * radius * radius
+    return area
+
+r = float(input("Enter the value of circle "))
+
+result = area_circle(r)
+print("Area of circle is", result)
 
