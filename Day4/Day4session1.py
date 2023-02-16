@@ -1,4 +1,21 @@
 '''
+#Program to check Palindrome using normal IF-ELSE Condition
+
+s=input("Enter the string : ")
+
+s=s.lower()
+
+reverse = s[::-1]
+
+if reverse==s:
+    print("palindrome")
+else:
+    print("Not a palindrome")
+'''
+
+
+
+'''
 #This Program is to check weather the string is palindrome or not using For loop
 
 s= input("Enter the string")
