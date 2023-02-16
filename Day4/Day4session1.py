@@ -1,3 +1,17 @@
+'''
+#This Program is to check weather the string is palindrome or not using For loop
+
+s= input("Enter the string")
+for i in range(0, int(len(s)/2)):    #Here we only compare the len(str)/2 means for eg. MADAM Here only till MA will be compared this will decrease the time complexity
+    if s !=s[len(s)-1-i]:
+       print("palindrome")
+       break
+    else:
+       print("not palindrome")
+
+'''
+
+
 '''def name():
     print("my name is gaurav")
     
@@ -34,19 +48,25 @@ time. sleep(3)
 welcome ()
 '''
 
+'''
 def addition(value):
     print("addition",value+value)
 
 addition(5)
+'''
 
 
+'''
 def add(num1, num2):
     return num1 + num2
     
 result = add(5, 10)
 print("Addition is", result)
+'''
 
 
+
+'''
 def arithmetic (a, b):
     p = a*b
     q = a + b
@@ -56,8 +76,10 @@ def arithmetic (a, b):
     
 result = arithmetic (5, 10)
 print (" Following are result",result)
+'''
 
 
+'''
 def chk_even_odd(value):
     if(value%2==0):
         print("Even")
@@ -66,24 +88,16 @@ def chk_even_odd(value):
         
 chk_even_odd(5)
 chk_even_odd(10)
+'''
 
 
-
+'''
 def info(firstname, lastname):
     print("First Name",firstname)
     print("Last Name", lastname)
     
 info("gaurav","jha")
 info(firstname="jha",lastname="gaurav")
-
-
-
-s= input("Enter the string")
-for i in range(0, int(len(s)/2)):
-    if s !=s[len(s)-1-i]:
-       print("palindrome")
-       break
-    else:
-       print("not palindrome")
+'''
 
 
