@@ -34,10 +34,52 @@ time. sleep(3)
 welcome ()
 '''
 
+def addition(value):
+    print("addition",value+value)
+
+addition(5)
+
+
+def add(num1, num2):
+    return num1 + num2
+    
+result = add(5, 10)
+print("Addition is", result)
+
+
+def arithmetic (a, b):
+    p = a*b
+    q = a + b
+    r = a-b
+    
+    return p, q, r
+    
+result = arithmetic (5, 10)
+print (" Following are result",result)
+
+
+def chk_even_odd(value):
+    if(value%2==0):
+        print("Even")
+    else:
+        print("odd")
+        
+chk_even_odd(5)
+chk_even_odd(10)
+
+
+
 def info(firstname, lastname):
     print("First Name",firstname)
     print("Last Name", lastname)
     
 info("gaurav","jha")
 info(firstname="jha",lastname="gaurav")
+
+
+s= input("Enter the string")
+    if s==s[len(s)-1-i]:
+        print("palindrome")
+    else:
+        print("not palindrome")
             
