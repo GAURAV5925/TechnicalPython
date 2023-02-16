@@ -15,6 +15,8 @@ add(a,b)'''
 def max_two(a,b):
     if a>b:
         print("A is largest")
+    elif a==b:
+        print("A is equal to B")
     else:
         print("B is largest")
 
