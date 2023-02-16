@@ -77,9 +77,13 @@ info("gaurav","jha")
 info(firstname="jha",lastname="gaurav")
 
 
+
 s= input("Enter the string")
-    if s==s[len(s)-1-i]:
-        print("palindrome")
+for i in range(0, int(len(s)/2)):
+    if s !=s[len(s)-1-i]:
+       print("palindrome")
+       break
     else:
-        print("not palindrome")
-            
+       print("not palindrome")
+
+
