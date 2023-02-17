@@ -65,23 +65,10 @@ result = area_circle(r)
 print("Area of circle is", result)'''
 
 
-def product(a, b):
-    p = a * b
-    print(p)
- 
-# Second product method
-# Takes three argument and print their
-# product
- 
- 
-def product(a, b, c):
-    p = a * b*c
-    print(p)
- 
-# Uncommenting the below line shows an error
-# product(4, 5)
- 
- 
-# This line will call the second product method
-product(4, 5, 5)
-product(4,5)
+# Day 2 Homework
+
+# Q1. prime or comp
+# Q2. even or odd
+# Q3. charater vowel or not both uppercase and lowercase
+# Q4. fibonacci number
+# Q5. palindrome number
