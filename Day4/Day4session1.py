@@ -20,7 +20,7 @@ else:
 
 s= input("Enter the string")
 for i in range(0, int(len(s)/2)):    #Here we only compare the len(str)/2 means for eg. MADAM Here only till MA will be compared this will decrease the time complexity
-    if s !=s[len(s)-1-i]:
+    if s[i] !=s[len(s)-1-i]:
        print("palindrome")
        break
     else:
