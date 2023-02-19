@@ -3,17 +3,21 @@
 # Note : Negative number are not prime or composite
 
 '''
-def prime():
-    a = int(input("Please Enter a Value: "))
-
-    if a<=0:    
-        print("Please enter a valid number ")
-    elif a%2==0 or a==2:   
-        print("Given number is a Composite number ")
+def prime(value):
+    flag = True     #Flag can be any assigned value and instead of flag we can use any name for eg. --> isPrime = True
+    for i in range(2,value//2):   #No need to iterate for the complete n value we can just iterate till the n//2 value Here "//" will conver the float value into integer
+        if value%i==0:
+            flag=False   #If the condition satisified flag will become true and Break keyword will stop the execution of the loop
+            break
+    
+    if flag==False:           #If we will use directly IF-ELSE Statement in the for loop it will not be able to catch the exception such as 15, 21 and so on
+        print("Not a Prime Number")
     else:
-        print("Given number is a prime number ")
+        print("Prime Number")
 
-prime()
+num = int(input("Enter a Number"))
+prime(num)
+
 '''
 
 # Q2. To find Odd Number
