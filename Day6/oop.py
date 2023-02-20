@@ -36,6 +36,7 @@ print(obj.__dict__)
 
 # Example 3
 
+'''
 class Hod:
     def __init__(self):
         self.name="Gaurav"
@@ -49,5 +50,33 @@ class Hod:
 
 obj = Hod()
 obj.info()
+'''
+
+
+#Example 4
+
+class College:
+    collegename="DYPIT"   #This is a static variable as it is outside the method and inside the class 
+
+    def __init__(self):
+        self.studentname= "Gaurav"            #Here studentname is a local vairable
+
+principal = College()
+teacher = College()
+accountant = College()
+
+principal.studentname="Pratik"
+
+print("Principal",principal.collegename,"...",principal.studentname)
+print("Teacher", teacher.collegename,"...",teacher.studentname)
+print("accountant", accountant.collegename,"...",accountant.studentname)
+
+College.collegename="HBO" #using the classname we can access the static VARIABLE
+principal.studentname="Gaurav Jha"
+
+print("principal =", principal.collegename,"|",principal.studentname)
+print("teacher ",teacher.collegename,"|",teacher.studentname)
+print("accountant",accountant.collegename,"|",accountant.studentname)
+
 
 
