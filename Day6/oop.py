@@ -1,3 +1,18 @@
+### Type of Variable :
+# LOcal Variable : It is the varable which is declared inside a method Note : We can also access the variable using the objects
+# Static Variable : It is the variable which is declared insode the class and outside of the method
+# Instance variable : It is the variable which Defer with the objects
+
+# For Eg--> def random:
+#               self.localvariable = instance variable
+
+#  In the construtor we can assign  directly the values and can call it without using the obj it will be called when we create a object 
+
+
+
+
+
+
 ## EXAMPLE 1
 
 '''
