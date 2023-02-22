@@ -1,3 +1,7 @@
+#  ------- B U B B L E  S O R T -----------
+
+# We compare with next element if it is greater than that 
+
 def bubbleSort(arr):
     n = len(arr)
 
@@ -24,5 +28,5 @@ bubbleSort(arr)
 
 print("Sorted array is")
 
-for i in arr:
+for i in range(len(arr)):
     print(arr[i], end=" ")
