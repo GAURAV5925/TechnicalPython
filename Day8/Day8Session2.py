@@ -57,7 +57,7 @@ def bin(lis,size,target):
     start = 0
     end = size-1
 
-    while(start<end):
+    while(start<=end):
 
         mid = start + (end-start)//2
 
