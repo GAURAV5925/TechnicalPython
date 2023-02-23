@@ -37,6 +37,7 @@ print("Your sorted array is",arr)
 # and if not we will just iterate the loop further
 # Here we ARRANGE THE SMALLEST ELEMENT AT THE STARTING POSTION THEN WE DO THE SAME FOR THE SECOND SMALLEST ELEMENT
 
+# [30, 10, 12, 8, 15, 1]
 
 
 def selection(arr,n):
