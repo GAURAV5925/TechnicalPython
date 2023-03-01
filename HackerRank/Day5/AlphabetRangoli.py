@@ -5,6 +5,7 @@ def print_rangoli(size):
     l1 = list(map(chr,range(97,123)))
     
     x = l1[n-1::-1] + l1[1:n]
+    #This will be complete length of the center element which will also be the longest element
 
     print(x)
     
