@@ -1,0 +1,16 @@
+n = list(map(int,input().split()))
+stud = n[0] #This will take the number of student which is also n
+sub = n[1] #This will take the number of subjects
+
+lis = list()
+
+for i in range(sub): #on the basis of no of subjects we will take the marks for each student
+    n = list(map(float,input().split())) #Here we are taking the float type for the marks of each students
+    lis.append(n) #Appending in a list
+    
+x = zip(*lis) #Imp --> unpacking is important
+ 
+for j in x:
+     total = sum(j) #Will iterate all the elment of zip and will sum it no need to unpack here
+     avg = total/sub
+     print(avg)
